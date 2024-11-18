@@ -6,6 +6,14 @@
     font-style: normal;
 }
 
+#pricing img {
+    display: block;
+    max-width: 100%; /* Pour qu'elle ne dépasse pas la largeur disponible */
+    height: auto; /* Conserve les proportions */
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+
+
 /* Styles généraux */
 body {
     font-family: 'Coolvetica', Arial, sans-serif;
