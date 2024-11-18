@@ -1,4 +1,4 @@
-// Sélectionner le header
+
 const header = document.querySelector('.header');
 
 // Ajouter un événement sur le défilement
