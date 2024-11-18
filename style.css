@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.features, .gallery, .pricing {
+    padding: 2rem;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.gallery .images img {
+    width: 30%;
+    margin: 1%;
+}
+
+.pricing button {
+    background-color: #000;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: white;
+}
