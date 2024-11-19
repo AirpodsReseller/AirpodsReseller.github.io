@@ -6,12 +6,6 @@
     font-style: normal;
 }
 
-h1 {
-
-    color: #000000;
-
-}
-
 #pricing img {
     display: block;
     max-width: 100%; /* Pour qu'elle ne dépasse pas la largeur disponible */
@@ -22,24 +16,11 @@ h1 {
 
 /* Styles généraux */
 body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #222;
-    color: white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.body.scrolled {
-    background-color: #222;
-    color: white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    font-family: 'Coolvetica', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 header {
@@ -99,7 +80,7 @@ header {
 }
 
 .hero button:hover {
-    background-color: #3f9beb;
+    background-color: #d89b30;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
 }
 
@@ -200,11 +181,21 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #222;
+    background-color: transparent;
     color: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     position: fixed;
     width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header après le défilement */
+.header.scrolled {
+    background-color: #222;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 /* Navigation links pour éviter les changements de couleur */
