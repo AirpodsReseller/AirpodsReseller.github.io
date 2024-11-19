@@ -80,7 +80,7 @@ header {
 }
 
 .hero button:hover {
-    background-color: ##3f84eb;
+    background-color: #3f84eb;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
 }
 
