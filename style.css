@@ -6,6 +6,12 @@
     font-style: normal;
 }
 
+h1 {
+
+    color: #000000;
+
+}
+
 #pricing img {
     display: block;
     max-width: 100%; /* Pour qu'elle ne dépasse pas la largeur disponible */
